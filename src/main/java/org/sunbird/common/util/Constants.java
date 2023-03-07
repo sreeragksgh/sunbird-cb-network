@@ -402,6 +402,8 @@ public class Constants {
 	public static final String API_ORG_LIST = "api.org.list";
 	public static final String API_ORG_EXT_CREATE = "api.org.extended.create";
 	public static final String API_ORG_EXT_SEARCH = "api.org.extended.search";
+	public static final String API_HEALTH_CHECK = "api.health.check";
+
 	public static final String COUNT = "count";
 
 	// email params
@@ -630,6 +632,11 @@ public class Constants {
 	public static final String DRAFT = "DRAFT";
 	public static final Object CREATED = "Created";
 	public static final Object UPDATED = "Updated";
+	public static final String HEALTHY = "healthy";
+	public static final String CHECKS = "checks";
+	public static final String CASSANDRA_DB = "cassandra db";
+	public static final String REDIS_CACHE = "redis cache";
+
 
 	private Constants() {
 		throw new IllegalStateException("Utility class");
